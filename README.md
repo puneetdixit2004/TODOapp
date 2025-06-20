@@ -1,27 +1,29 @@
-# 🔐 Password Generator
+# 📝 Todo App
 
-A sleek and simple password generator built with React and Tailwind CSS. Generate strong, customizable passwords with ease — including options for special characters, numbers, and adjustable length.
+A clean and intuitive Todo App built with React and Tailwind CSS. Easily manage your daily tasks with features like adding, editing, deleting, and marking todos as complete. Enjoy a responsive and visually appealing interface for productivity on any device.
 
 ---
 
 ## 🚀 Features
 
-- Generate random passwords of customizable length (6–20 characters)
-- Option to include **special characters** and/or **numbers**
-- Password **strength indicator** (Weak, Medium, Strong)
-- One-click **copy to clipboard**
-- Beautiful, responsive UI built with Tailwind CSS
+- Add new todos quickly
+- Edit existing todos
+- Delete todos
+- Mark tasks as completed or active
+- Filter todos by status (All, Active, Completed)
+- Responsive and modern UI with Tailwind CSS
+- Persistent state with local storage (optional)
 
 ---
 
 ## 📸 Preview
 
-| Description                  | Screenshot                 |
-|-----------------------------|----------------------------|
-| Password generated          | ![Password Generated](image-1.png) |
-| With numbers                | ![With Numbers](image.png) |
-| With numbers & characters   | ![With Numbers and Characters](image-2.png) |
-| Clipboard copy feature      | ![Clipboard Copy](image-3.png) |
+| Description           | Screenshot                 |
+|----------------------|----------------------------|
+| Todo List            | ![Todo List](image-1.png)  |
+| Adding a Todo        | ![Add Todo](image-2.png)   |
+| Editing a Todo       | ![Edit Todo](image-3.png)  |
+| Completed Todos      | ![Completed](image-4.png)  |
 
 ---
 
@@ -37,11 +39,38 @@ A sleek and simple password generator built with React and Tailwind CSS. Generat
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/password-generator.git
-cd password-generator
+git clone https://github.com/yourusername/todo-app.git
+cd todo-list
 
 # Install dependencies
 npm install
 
 # Start the development server
 npm start
+```
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+todo-app/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   ├── TodoInput.jsx
+│   ├── TodoItem.jsx
+│   ├── TodoList.jsx
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
